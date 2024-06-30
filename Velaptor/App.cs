@@ -8,7 +8,7 @@ using Carbonate.NonDirectional;
 using Carbonate.OneWay;
 using Graphics;
 using ReactableData;
-using Silk.NET.OpenGL;
+using Silk.NET.OpenGLES;
 
 /// <summary>
 /// Represents a Velaptor application.

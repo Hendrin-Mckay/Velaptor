@@ -28,7 +28,7 @@ using ReactableData;
 using Scene;
 using Silk.NET.Input;
 using Silk.NET.Maths;
-using Silk.NET.OpenGL;
+using Silk.NET.OpenGLES;
 using Silk.NET.Windowing;
 using Velaptor.Services;
 using SilkIWindow = Silk.NET.Windowing.IWindow;
@@ -386,7 +386,7 @@ internal sealed class GLWindow : VelaptorIWindow
     /// <exception cref="NoMouseException">Thrown if no mouse could be created.</exception>
     private void Init(uint width, uint height)
     {
-        var glObj = this.silkWindow.CreateOpenGL();
+        var glObj = this.silkWindow.CreateOpenGLES();
         this.glReactable.Push(PushNotifications.GLContextCreatedId, glObj);
         this.glReactable.Unsubscribe(PushNotifications.GLContextCreatedId);
 

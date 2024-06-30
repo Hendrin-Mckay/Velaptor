@@ -11,7 +11,7 @@ using System.Numerics;
 using Carbonate;
 using Carbonate.OneWay;
 using Exceptions;
-using Silk.NET.OpenGL;
+using Silk.NET.OpenGLES;
 using Velaptor.OpenGL;
 
 /// <summary>

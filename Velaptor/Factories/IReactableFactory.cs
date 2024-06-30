@@ -10,7 +10,7 @@ using Carbonate.OneWay;
 using Graphics;
 using OpenGL.Batching;
 using ReactableData;
-using Silk.NET.OpenGL;
+using Silk.NET.OpenGLES;
 
 /// <summary>
 /// Generates reactable instances.

@@ -9,7 +9,7 @@ using System.ComponentModel;
 using System.Drawing;
 using System.Numerics;
 using OpenGL;
-using Silk.NET.OpenGL;
+using Silk.NET.OpenGLES;
 using Velaptor.OpenGL;
 using Velaptor.Services;
 

@@ -6,7 +6,7 @@ namespace Velaptor.ReactableData;
 
 using System.Diagnostics.CodeAnalysis;
 using Silk.NET.Input;
-using Silk.NET.OpenGL;
+using Silk.NET.OpenGLES;
 using Silk.NET.Windowing;
 
 /// <summary>

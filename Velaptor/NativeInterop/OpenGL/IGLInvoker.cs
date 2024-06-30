@@ -9,7 +9,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Numerics;
 using Silk.NET.Core.Attributes;
 using Silk.NET.Core.Native;
-using Silk.NET.OpenGL;
+using Silk.NET.OpenGLES;
 using Velaptor.OpenGL;
 
 /// <summary>
